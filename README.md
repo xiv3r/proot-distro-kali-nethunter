@@ -5,8 +5,7 @@ Kali NetHunter is the mobile version of Kali Linux, aimed at providing a powerfu
 - Proot-Distro:
 proot-distro is a utility that simplifies the installation and management of Linux distributions in a chroot-like environment on Android devices. This tool is especially useful for running full Linux environments without needing root access. It leverages proot, a user-space implementation of chroot, which allows you to run a Linux distribution inside a virtualized environment, completely isolated from the Android system. proot-distro is a great solution for running Kali Linux tools and other Linux-based distributions on Android.
 
-# Platform
-- Termux
+# Termux
 
 # Auto Installer
 >[!Tip]
@@ -30,4 +29,12 @@ wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/re
 - Run Kali
 ```
 proot-distro login debian
+```
+
+# Dowork
+- Download [Dowork](https://github.com/PangBaiWork/Dowork/releases/download/stable1.1/app-release-arm64-1.1.apk)
+
+## Auto Install 
+```sh
+
 ```

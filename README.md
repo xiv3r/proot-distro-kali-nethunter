@@ -17,7 +17,6 @@ termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "
 ```sh
 wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/kali-proot-distro.sh | sh
 ```
-
 ### Custom Installer
 - Selective launch only
 ```sh
@@ -31,10 +30,11 @@ wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/re
 proot-distro login debian
 ```
 
+
 # Dowork
 - Download [Dowork](https://github.com/PangBaiWork/Dowork/releases/download/stable1.1/app-release-arm64-1.1.apk)
 
-### Auto Install 
+### Auto Installer
 ```sh
 apt update && apt install wget -y && wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/kali-dowork.sh | sh
 ```

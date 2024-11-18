@@ -1,6 +1,4 @@
 cd
-#
-clear
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
@@ -45,7 +43,9 @@ if [ -x /usr/lib/command-not-found -o -x /usr/share/command-not-found/command-no
                 fi
         }
 fi
-
+#
+clear
+#
 echo -e '\e[1;31m'
 echo ' _____                                                       _____ ';
 echo '( ___ )-----------------------------------------------------( ___ )';

@@ -36,5 +36,5 @@ proot-distro login debian
 
 ### Auto Install 
 ```sh
-apt update && apt install wget && wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/kali-dowork.sh | sh
+apt update && apt install wget -y && wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/kali-dowork.sh | sh
 ```

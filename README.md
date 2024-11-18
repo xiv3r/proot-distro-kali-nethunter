@@ -11,7 +11,7 @@ proot-distro is a utility that simplifies the installation and management of Lin
 > - Clear all termux data before installing
 > - Automatically launch Kali on start-up
 ```sh
-termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "clear && proot-distro login debian" >> $PREFIX/etc/bash.bashrc && proot-distro install debian && proot-distro login debian
+termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "proot-distro login debian" >> $PREFIX/etc/bash.bashrc && proot-distro install debian && proot-distro login debian
 ```
 ```sh
 wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/kali-proot-distro.sh | sh

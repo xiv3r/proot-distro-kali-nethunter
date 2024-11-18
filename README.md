@@ -39,3 +39,5 @@ proot-distro login debian
 ```sh
 apt update && apt install wget -y && wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/kali-dowork.sh | sh
 ```
+
+<image src="https://github.com/xiv3r/proot-distro-kali-nethunter/blob/main/src/dowork.png">

@@ -15,8 +15,9 @@ fi
 
 # set a fancy prompt (non-color, overwrite the one in /etc/profile)
 # but only if not SUDOing and have SUDO_PS1 set; then assume smart user.
+user=kali
 if ! [ -n "${SUDO_USER}" -a -n "${SUDO_PS1}" ]; then
-  PS1='${debian_chroot:+($debian_chroot)}\u@kali:\w\$ '
+  PS1='${debian_chroot:+($debian_chroot)}\u@$user:\w\$ '
 fi
 
 # enable bash completion in interactive shells

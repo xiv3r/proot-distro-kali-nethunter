@@ -33,6 +33,7 @@ proot-distro login debian
 
 # Dowork
 - Download [Dowork](https://github.com/PangBaiWork/Dowork/releases/download/stable1.1/app-release-arm64-1.1.apk)
+- Install Debian and then proceed to the installer
 
 ### Auto Installer
 ```sh

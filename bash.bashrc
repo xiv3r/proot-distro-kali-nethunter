@@ -1,3 +1,4 @@
+clear
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
@@ -41,3 +42,17 @@ if [ -x /usr/lib/command-not-found -o -x /usr/share/command-not-found/command-no
                 fi
         }
 fi
+
+echo -e "\e[1;31m"
+    echo "#################################################"
+    echo "##                                              ##"
+    echo "##  88      a8P         db        88        88  ##"
+    echo "##  88    .88'         d88b       88        88  ##"
+    echo "##  88   88'          d8''8b      88        88  ##"
+    echo "##  88 d88           d8'  '8b     88        88  ##"
+    echo "##  8888'88.        d8YaaaaY8b    88        88  ##"
+    echo "##  88P   Y8b      d8''''''''8b   88        88  ##"
+    echo "##  88     '88.   d8'        '8b  88        88  ##"
+    echo "##  88       Y8b d8'          '8b 888888888 88  ##"
+    echo "##                                              ##"
+    echo "#################### NetHunter ###################"

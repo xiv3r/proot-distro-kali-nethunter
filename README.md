@@ -52,7 +52,7 @@ proot-distro login ubuntu
 - Add custom terminal username
 > Replace the name `xiv3r` to your name
 ```sh
-sed -i 's/user=kali/user=xiv3r/' $PREFIX/etc/bash.bashrc
+sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc
 ```
 
 <image src="https://github.com/xiv3r/proot-distro-kali-nethunter/blob/main/src/termux.png">

@@ -1,8 +1,7 @@
 #!/bin/sh
 
 ###
-# echo "PS1='\${debian_chroot:+(\$debian_chroot)}\u@kali:\w\$ '" | tee -a /etc/bash.bashrc > /dev/null
-wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/bash.bashrc
+wget -O /root/.bashrc https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/.bashrc
 ###
 apt update && apt install curl gnupg -y
 ###

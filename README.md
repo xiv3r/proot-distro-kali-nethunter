@@ -46,7 +46,9 @@ wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/re
 proot-distro login debian
 ```
 - Run Kali (Ubuntu)
-
+```sh
+proot-distro login ubuntu
+```
 - Add custom terminal username
 > Replace the name `xiv3r` to your name
 ```sh

@@ -25,3 +25,5 @@ apt update && apt full-upgrade -y
 apt --fix-broken install
 ###
 dpkg --configure -a
+###
+source /root/.bashrc

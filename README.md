@@ -19,23 +19,7 @@ wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/re
 ```
 ### Auto Installer (Ubuntu)
 ```sh
-termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "proot-distro login debian" >> $PREFIX/etc/bash.bashrc && proot-distro install ubuntu && proot-distro login ubuntu
-```
-```sh
-wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/kali-proot-distro.sh | sh
-```
-
-### Manual Install (Debian)
-- Selective launch only
-```sh
-apt update && pkg install proot-distro wget -y && proot-distro install debian && proot-distro login debian
-```
-```sh
-wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/kali-proot-distro.sh | sh
-```
-### Manual Install (Ubuntu)
-```sh
-apt update && pkg install proot-distro wget -y && proot-distro install ubuntu && proot-distro login ubuntu
+termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "proot-distro login ubuntu" >> $PREFIX/etc/bash.bashrc && proot-distro install ubuntu && proot-distro login ubuntu
 ```
 ```sh
 wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/kali-proot-distro.sh | sh

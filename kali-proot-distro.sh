@@ -1,5 +1,4 @@
 #!/bin/sh
-
 ###
 wget -O /root/.bashrc https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/.bashrc
 ###
@@ -22,3 +21,7 @@ deb [signed-by="/usr/share/keyrings/kali-archive-keyring.gpg"] https://kali.down
 " > /etc/apt/sources.list
 ###
 apt update && apt full-upgrade -y
+###
+apt --fix-broken install
+###
+dpkg --configure -a

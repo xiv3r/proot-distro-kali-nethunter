@@ -8,17 +8,12 @@ proot-distro is a utility that simplifies the installation and management of Lin
 # Termux
 >[!Tip]
 > - Clear all termux data before installing
-> - Automatically launch Kali upon start-up
+> - Automatically launch Kali on start-up
 
 ## Auto Installer (Debian)
-> select only 1 and install
 - bookworm
 ```sh
 termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "clear && proot-distro login debian" >> $PREFIX/etc/bash.bashrc && proot-distro install debian && proot-distro login debian
-```
-- bullseye
-```sh
-termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "clear && proot-distro login debian-oldstable" >> $PREFIX/etc/bash.bashrc && proot-distro install debian-oldstable && proot-distro login debian-oldstable
 ```
 ### Install
 ```sh
@@ -41,17 +36,11 @@ wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/re
 ```sh
 sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
 ```
-
 ## Run Kali (Debain)
 - bookworm
 ```
 proot-distro login debian
 ```
-- bullseye
-```
-proot-distro login debian-oldstable
-```
-
 ## Run Kali (Deepin)
 ```
 proot-distro login deepin

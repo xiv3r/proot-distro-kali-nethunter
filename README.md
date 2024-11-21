@@ -43,8 +43,13 @@ sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
 ```
 
 ## Run Kali (Debain)
+- bookworm
 ```
 proot-distro login debian
+```
+- bullseye
+```
+proot-distro login debian-oldstable
 ```
 
 ## Run Kali (Deepin)

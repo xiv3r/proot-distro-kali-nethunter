@@ -67,5 +67,9 @@ sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
 ```sh
 wget -O $PREFIX/etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/termux-color
 ```
-
+- Add your custom terminal username
+> replace the name `termux` to your name
+```
+sed -i 's/user=xiv3r/user=termux/' $PREFIX/etc/bash.bashrc && source $PREFIX/etc/bash.bashrc
+```
 <img src="https://github.com/xiv3r/proot-distro-kali-nethunter/blob/main/src/termux-color.png">

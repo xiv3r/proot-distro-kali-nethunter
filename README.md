@@ -29,6 +29,11 @@ termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "
 ```sh
 wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/deepin-kali-proot-distro.sh | sh
 ```
+- Add custom terminal username
+> Replace the name `xiv3r` to your name
+```sh
+sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
+```
 
 ## Run Kali (Debain)
 ```

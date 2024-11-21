@@ -24,28 +24,10 @@ wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/re
 sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
 ```
 
-### Auto Installer (Ubuntu)
-```sh
-termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "proot-distro login ubuntu" >> $PREFIX/etc/bash.bashrc && proot-distro install ubuntu && proot-distro login ubuntu
-```
-```sh
-wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/kali-proot-distro.sh | sh
-```
-- Add custom terminal username
-> Replace the name `xiv3r` to your name
-```sh
-sed -i 's/user=kali/user=xiv3r/' /root/.bashrc && source /root/.bashrc
-```
-
 ## Run Kali (Debain)
 ```
 proot-distro login debian
 ```
-## Run Kali (Ubuntu)
-```sh
-proot-distro login ubuntu
-```
-
 <image src="https://github.com/xiv3r/proot-distro-kali-nethunter/blob/main/src/termux.png">
 
 

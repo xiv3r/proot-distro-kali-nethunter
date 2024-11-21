@@ -23,7 +23,7 @@ fi
 # but only if not SUDOing and have SUDO_PS1 set; then assume smart user.
 user=kali
 if ! [ -n "${SUDO_USER-}" -a -n "${SUDO_PS1-}" ]; then
-   PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@$user\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
+   PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@$user\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 fi
 
 # Commented out, don't overwrite xterm -T "title" -n "icontitle" by default.
@@ -31,7 +31,8 @@ fi
 #case "$TERM" in
 #xterm*|rxvt*)
 #    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
-#    ;;                                                                                 #*)
+#    ;;                                                                                 
+#*)
 #    ;;
 #esac
 

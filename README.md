@@ -34,6 +34,11 @@ wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/re
 ```
 proot-distro login debian
 ```
+
+## Run Kali (Deepin)
+```
+proot-distro login deepin
+```
 <image src="https://github.com/xiv3r/proot-distro-kali-nethunter/blob/main/src/termux.png">
 
 

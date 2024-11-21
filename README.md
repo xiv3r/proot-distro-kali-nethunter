@@ -12,7 +12,7 @@ proot-distro is a utility that simplifies the installation and management of Lin
 
 ### Auto Installer (Debian)
 ```sh
-termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "proot-distro login debian" >> $PREFIX/etc/bash.bashrc && proot-distro install debian && proot-distro login debian
+termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "clear && proot-distro login debian" >> $PREFIX/etc/bash.bashrc && proot-distro install debian && proot-distro login debian
 ```
 ```sh
 wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/kali-proot-distro.sh | sh
@@ -24,7 +24,7 @@ sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
 ```
 ### Auto Installer (Deepin)
 ```sh
-termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "proot-distro login deepin" >> $PREFIX/etc/bash.bashrc && proot-distro install deepin && proot-distro login deepin
+termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "clear && proot-distro login deepin" >> $PREFIX/etc/bash.bashrc && proot-distro install deepin && proot-distro login deepin
 ```
 ```sh
 wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/deepin-kali-proot-distro.sh | sh

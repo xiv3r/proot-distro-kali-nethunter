@@ -9,7 +9,6 @@ proot-distro is a utility that simplifies the installation and management of Lin
 >[!Tip]
 > - Clear all termux data before installing
 > - Automatically launch Kali upon start-up
-> - Select only 1 distro
 
 ### Auto Installer (Debian)
 ```sh

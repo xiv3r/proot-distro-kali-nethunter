@@ -45,7 +45,7 @@ proot-distro login debian
 ```
 proot-distro login deepin
 ```
-<image src="https://github.com/xiv3r/proot-distro-kali-nethunter/blob/main/src/termux.png">
+<image src="https://github.com/xiv3r/proot-distro-kali-nethunter/blob/main/src/kali.png">
 
 
 # Dowork (Debian)
@@ -61,4 +61,4 @@ apt update && apt install wget -y && wget -qO- https://raw.githubusercontent.com
 ```sh
 sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
 ```
-<image src="https://github.com/xiv3r/proot-distro-kali-nethunter/blob/main/src/dowork.png">
+<image src="https://github.com/xiv3r/proot-distro-kali-nethunter/blob/main/src/kali.png">

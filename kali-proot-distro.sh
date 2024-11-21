@@ -1,6 +1,6 @@
 #!/bin/sh
 ###
-wget -O /root/.bashrc https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/.bashrc
+wget -O /etc/bash.bashrc https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/bash.bashrc
 ###
 apt update && apt install curl gnupg -y
 ###

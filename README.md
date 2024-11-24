@@ -8,28 +8,14 @@ proot-distro is a utility that simplifies the installation and management of Lin
 # Termux
 >[!Tip]
 > - Clear all termux data before installing
-> - Automatically launch Kali on start-up
 
-## Auto Installer (Debian)
+## Auto Installer
 - bookworm
 ```sh
 termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "clear && proot-distro login debian" >> $PREFIX/etc/bash.bashrc && proot-distro install debian && proot-distro login debian
 ```
-### Install
 ```sh
 wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/kali-proot-distro.sh | sh
-```
-- Add custom terminal username
-> Replace the name `xiv3r` to your name
-```sh
-sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
-```
-## Auto Installer (Deepin)
-```sh
-termux-setup-storage && apt update && pkg install proot-distro wget -y && echo "clear && proot-distro login deepin" >> $PREFIX/etc/bash.bashrc && proot-distro install deepin && proot-distro login deepin
-```
-```sh
-wget -qO- https://raw.githubusercontent.com/xiv3r/proot-distro-kali-nethunter/refs/heads/main/deepin-kali-proot-distro.sh | sh
 ```
 - Add custom terminal username
 > Replace the name `xiv3r` to your name
@@ -41,13 +27,8 @@ sed -i 's/user=kali/user=xiv3r/' /etc/bash.bashrc && source /etc/bash.bashrc
 ```
 proot-distro login debian
 ```
-## Run Kali (Deepin)
-```
-proot-distro login deepin
-```
 <image src="https://github.com/xiv3r/proot-distro-kali-nethunter/blob/main/src/kali.png">
-
-
+  
 # Dowork (Debian)
 - Download [Dowork](https://github.com/PangBaiWork/Dowork/releases/download/stable1.1/app-release-arm64-1.1.apk)
 - Install Debian and then proceed to the installer

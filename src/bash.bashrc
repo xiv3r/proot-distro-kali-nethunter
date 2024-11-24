@@ -13,8 +13,8 @@ export HISTCONTROL=ignoreboth
 # Default command line prompt.
 PROMPT_DIRTRIM=2
 # PS1='\[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '
-user=xiv3r
-PS1="\[\033[01;31m\]root@$user™\[\033[00;33m\]~#\[\033[00;36m\] "
+user=termux
+PS1="\[\033[01;31m\]root@$user®\[\033[00;33m\]~#\[\033[00;36m\] "
 
 # Handles nonexistent commands.
 # If user has entered command which invokes non-available

@@ -1,3 +1,5 @@
+<p align="center"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fxiv3r%2Fproot-distro-kali-nethunter&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=%F0%9F%91%81%EF%B8%8F+%F0%9F%91%81%EF%B8%8F&edge_flat=false">
+
 # About
 - Kali NetHunter:
 Kali NetHunter is the mobile version of Kali Linux, aimed at providing a powerful platform for cybersecurity professionals and ethical hackers. It is specifically tailored to Android devices, with support for a variety of wireless attacks, USB HID attacks, and more. NetHunter is designed to bring the full Kali Linux toolset to mobile, allowing for penetration testing and security auditing on the go.
